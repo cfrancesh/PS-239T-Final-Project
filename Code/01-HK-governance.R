@@ -60,7 +60,7 @@ wgi1<-
          ccode=X.1)%>% #rename the variables 
   gather(year, score, -ctry, -ccode, -varx)%>%
   mutate(score=as.numeric(gsub("#N/A|#REF", NA, score)),
-         ctry=gsub("\xef", "O", ctry), #chane the weird characters in the country names
+         ctry=gsub("\xef", "O", ctry), #change the weird characters in the country names
          ctry=gsub("\x83","e", ctry),
          ctry=gsub("\xcc","a", ctry),
          first=tolower(word(ctry, 1)),
