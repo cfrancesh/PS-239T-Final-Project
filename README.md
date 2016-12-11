@@ -1,5 +1,5 @@
 # PS239T Final Project: HK LegCo
-
+For a more detailed report of this project, please check out the report pdf in the home folder. 
 ## Short Description
 
 In this project, I collected and analyzed data to answer these three questions: 
